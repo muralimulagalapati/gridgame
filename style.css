@@ -1,0 +1,37 @@
+body {
+  margin: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 75px 75px 75px 75px 75px;
+  grid-template-rows: 75px 75px 75px 75px 75px;
+  background-color: #fff;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 1px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.a1 {
+  grid-area: 1 / 5 / 1 / 5;
+}
+.b1 {
+  grid-area: 2 / 5 / 2 / 5;
+}
+.c1 {
+  grid-area: 3 / 5 / 3 / 5;
+}
+.d1 {
+  grid-area: 4 / 5 / 4/ 5;
+}
+.e1 {
+  grid-area: 5 / 5 / 5 / 5;
+}
